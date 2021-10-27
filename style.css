@@ -1,0 +1,172 @@
+/*common css start */
+body{
+	padding: 0;
+	margin: 0;
+font-family: sans-serif;
+}
+/*common css end*/
+/*header start*/
+header{
+ padding: 15px 0;
+}
+.wrapper{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+}
+.logo{
+	float: left;
+	width: 10%;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 55%;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0px 25px;
+	display: inline-block;
+	color: black !important;
+}
+.menu ul li a:hover{
+ color: #008AFF ;
+}
+.menu ul li:last-child  a{
+padding-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 70px 0;
+}
+.wrapper2{
+	margin: 0 auto;
+	width: 60%;
+}
+.b_content{
+	text-align: center;
+}
+.b_h1{
+	margin: 0;
+	font-size: 70px;
+	color: #0F2656;
+	line-height: 90px;
+}
+.b_span{
+	color: #008AFF;
+}
+.b_text{
+	font-size: 18px;
+	margin: 15px 0;
+	color: #0F2656 ;
+}
+.b_img{
+	margin: 0 auto;
+	width: 80%;
+}
+.b_img img{
+	width: 100%;
+	transition: .3s;
+}
+.b_img img:hover{
+	transform: scale(.8);
+}
+/*banner end*/
+/*success start*/
+.success{
+	padding: 60px 0;
+}
+.s_content{
+	overflow: hidden;
+}
+.s_left{
+	width: 44%;
+	float: left;
+	text-align: right;
+	padding: 0 10px 0 30px;
+}
+.s_left h2{
+	margin: 0;
+	font-size: 50px;
+	color: #F15767;
+}
+.s_left p{
+margin: 0;
+font-size: 16PX;
+color: #F2656;
+line-height: 25px;
+}
+.s_right{
+	width: 47%;
+	float: right;
+	padding: 0 30px 0 10px;
+}
+.s_right h1{
+	margin: 0;
+	font-size: 43px;
+	color: #0F2656;
+}
+/*success end*/
+/*service start*/
+.service{}
+.s_wrapper{}
+.s_single{
+	width: 26%;
+	padding: 60px 2.2%;
+	background-color: #FDEBED;
+	float: left;
+	margin-right: 3.3%;
+}
+.s_single:last-child{
+	margin-right: 0;
+}
+.pink{
+	background-color: #FDEBED;
+}
+.green{
+	background-color: #EBF9F4;
+}
+.yellow{
+	background-color: #FFF7E8;
+}
+.s_img{}
+.s_img img{
+	width: 100%;
+}
+.s_h2{
+	margin: 15px 0;
+	color: #0F2656;
+	font-size: 20px;
+}
+.s_text{
+	font-size: 16px;
+	line-height: 25px;
+	color: #0F2656;
+	margin: 0;
+}
+/*service end*/
+/*footer start*/
+.footer{
+}
+.f_text{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+.p{
+margin: 0;
+font-size: 20px;
+}
+/*footer end*/
